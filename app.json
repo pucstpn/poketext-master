@@ -1,0 +1,22 @@
+{
+    "name": "Poketext",
+    "description": "Your own SMS and MMS pokedex, powered by Twilio and PokeAPI",
+    "keywords": [
+        "Pokemon",
+        "twilio",
+        "mms",
+        "sms",
+        "API"
+    ],
+    "repository": "https://github.com/phalt/poketext",
+    "env": {
+    "TWILIO_ACCOUNT_SID": {
+        "description": "Your Twilio account id",
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio authentication token",
+      "required": true
+    }
+  }
+}
